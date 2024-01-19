@@ -28,55 +28,55 @@
         </p>
       </div>
       <div class="inputs-container">
-        <div class="name-container input-container error-class">
-          <input class="input-name" type="text" placeholder="First Name">
-          <div class="error-sign-container error-sign-name">
+        <div id="name-container" class="name-container input-container">
+          <input id="input-name" class="input-name" type="text" placeholder="First Name">
+          <div id="error-sign-name" class="error-sign-container error-sign-name not-visible">
             <svg class="error-sign" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd">
               <circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g>
             </svg>
           </div>
-          <div class="error-text-container">
+          <div id="error-text-name" class="error-text-container not-visible">
             <p class="error-text">First Name cannot be empty</p>
           </div>
         </div>
 
-        <div class="last-name-container input-container">
-          <input class="input-last-name" type="text" placeholder="Last Name">
-          <div class="error-sign-container error-sign-last-name">
+        <div id="last-name-container" class="last-name-container input-container">
+          <input id="input-last-name" class="input-last-name" type="text" placeholder="Last Name">
+          <div id="error-sign-last-name" class="error-sign-container error-sign-last-name not-visible">
             <svg error-sign width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd">
               <circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g>
             </svg>
           </div>
-          <div class="error-text-container">
+          <div id="error-text-last-name" class="error-text-container not-visible">
             <p class="error-text">Last Name cannot be empty</p>
           </div>
         </div>
 
-        <div class="email-container input-container">
-          <input class="input-email" type="email" placeholder="Email Address">
-          <div class="error-sign-container error-sign-email">
+        <div id="email-container" class="email-container input-container">
+          <input id="input-email" class="input-email" type="email" placeholder="Email Address">
+          <div id="error-sign-email" class="error-sign-container error-sign-email not-visible">
             <svg error-sign width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd">
               <circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g>
             </svg>
           </div>
-          <div class="error-text-container">
+          <div id="error-text-email" class="error-text-container not-visible">
             <p class="error-text">Looks like this is not an email</p>
           </div>
         </div>
 
-        <div class="password-container input-container">
-          <input class="input-password" type="password" placeholder="Password">
-          <div class="error-sign-container error-sign-password">
+        <div id="password-container" class="password-container input-container">
+          <input id="input-password" class="input-password" type="password" placeholder="Password">
+          <div id="error-sign-password" class="error-sign-container error-sign-password not-visible">
             <svg error-sign width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd">
               <circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g>
             </svg>
           </div>
-          <div class="error-text-container">
+          <div id="error-text-password" class="error-text-container not-visible">
             <p class="error-text">Password cannot be empty</p>
           </div>
         </div>
 
-        <div class="button">
+        <div id="button" class="button">
           <p class="button-text">Claim your free trial</p>
         </div>
         <p class="form-description">
@@ -86,6 +86,6 @@
       </div>  
     </section>
   </main> 
-
+  <script src="script.js"></script>
 </body>
 </html>
